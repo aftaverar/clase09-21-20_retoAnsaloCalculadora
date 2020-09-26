@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body class="text-light fondo def" id="default">
+  <nav></nav>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <main> 
+    <div class="container def" id="container">
+      <div class="row">
+
+<!--=== titulo ===-->
+        <div class="col-12 d-flex justify-content-center">
+          <h2>RETO ÁNSALO</h2>
+        </div>
+<!--=== input letras ===-->
+        <div class="col-12">
+          <div class="row col">
+            <label for="inputLetras" class="col-sm-2 d-flex align-self-center">
+              <h3>Letras</h3>
+            </label>
+            <span class="container-input def col-sm-8" id="letras">
+              <h2 ></h2>
+            </span>
+          </div>
+<!--=== input numeros ===-->
+          <div class="row col-12">
+            <label for="inputNumeros" class="col-sm-2 d-flex align-self-center">
+              <h3>Numeros</h3>
+            </label>
+            <span class="container-input def  col-sm-8" id="numeros">
+              <h2 ></h2>
+            </span>
+          </div>
+        </div>
+
+         <!--=== temas ===-->
+        
+     <div class="col-12 temas">
+          <div class="custom-control custom-switch" id="dark">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+            <label class="custom-control-label" for="customSwitch1">Activar tema oscuro</label>
+          </div>
+          <div class="custom-control custom-switch" id="retro">
+            <input type="checkbox" class="custom-control-input" id="customSwitch2">
+            <label class="custom-control-label" for="customSwitch2">Activar tema retro</label>
+          </div>
+
+     
+     <!--
+      <div class="col-12 temas">
+        <div class="custom-control custom-switch">
+          <button type="button" class="btn btn-outline-dark"  id="dark">Activar tema oscuro</button>
+        </div>
+        <div class="custom-control custom-switch" id="retro">
+          <button type="button" class="btn btn-outline-dark"  id="dark">Activar tema retro</button>
+         
+        </div>
+ -->
+<!--=== botones ===-->
+          <div class="row botones">
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="a1">A-1</button></div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="b2">B-2</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="c3">C-3</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="d4">D-4</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="e5">E-5</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="f6">F-6</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="g7">G-7</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="h8">H-8</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def" id="i9">I-9</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl def"> <a href="assets/Pages/calculadora.html.html">calc</a> </button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl " id="j0">J-0</button> </div>
+            <div class="col-sm-3 col-sx-4 p-3"><button type="button"
+                class="btn btn-primary btn-circle btn-xl " id="resetear">reset</button></div>
+
+
+          </div>
+        </div>
+      </div>
+  </main>
+<footer></footer>
+
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="assets/js/script.js"></script>
+
+  
+</body>
+
+</html>
